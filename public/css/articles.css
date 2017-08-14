@@ -1,0 +1,170 @@
+.pace .pace-progress {
+  background: #29d;
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  left: 0;
+  height: 2px;
+  -webkit-transition: width 1s;
+  -moz-transition: width 1s;
+  -o-transition: width 1s;
+  transition: width 1s;
+}
+
+.pace-inactive {
+  display: none;
+}
+
+.links > a {
+                color: #636b6f;
+                padding: 0 0 25px;
+                font-size: 12px;
+                font-weight: 600;
+                letter-spacing: .1rem;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+
+/* Primary 
+-------------------------------------------------------- */
+#primary {
+  margin: 0 auto;
+}
+
+.header {
+  height: 50px;
+}
+
+/*.site-title {
+  font-size: 4em;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+
+  display: block;
+  background: #235A9F;
+
+}
+.site-title a {
+  color: #fff;
+}*/
+
+.site-title,
+.site-description {
+  margin: 0;
+}
+
+/* Content */
+.content {
+  margin: 2.8em auto;
+  max-width: 860px;
+}
+
+.content-head {
+  color: #aaa;
+  border-bottom: 1px solid #eee;
+  padding: 0.4em 0;
+  font-size: 1.3em;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* Post */
+.post, .comments {
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 0px 1px 1px #aaa;
+  padding: 3em;
+  margin: 2em auto;
+}
+
+.entry-title {
+  color: #222;
+  font-size: 1.8em;
+  margin: 0 0 0.2em;
+}
+
+.entry-title a {
+  color: #222;
+}
+
+.entry-avatar {
+  border-radius: 50%;
+  float: right;
+  margin-left: 1em;
+}
+
+.entry-description {
+  color: #344151;
+  font-family: "Source Sans Pro",sans-serif;
+  font-size: 1.15em;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  line-height: 1.5em;
+}
+
+.entry-meta {
+  color: #999;
+  font-size: 90%;
+  margin: 0 0 1.8em;
+}
+
+/* Footer */
+.footer {
+  margin: 0 auto;
+  padding: 1em;
+  border-top: 1px solid #DBDBDB;
+}
+
+.footer p {
+  color: #aaa;
+  font-size: 90%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* Secondary 
+-------------------------------------------------------- */
+#secondary {
+  display: none;
+}
+
+/* Sidebar */
+.sidebar {
+  background: #1C171E;
+	height: 100%;
+	position: fixed;
+  right: 0;
+  overflow-y: auto;
+}
+
+.sidebar aside {
+  color: #C1C0C0;
+  margin: 2em 1em;
+}
+
+.sidebar aside p {
+  font-size: 1.1em;
+}
+
+.sidebar aside h4 {
+  color: #fff;
+}
+
+.sidebar aside div {
+  margin: 2em 0;
+}
+
+.sidebar ul {
+	margin: 0.6em 0;
+	padding: 0;
+	list-style: none;
+}
+
+.sidebar ul li {
+	display: inline-block;
+}
+
+.sidebar ul li a {
+	font-size: 0.8em;
+}

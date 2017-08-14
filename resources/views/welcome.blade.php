@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="links">
-                    <a href="{{ url('/articles') }}">Liste des articles</a><br>
+                    <a href="{{ url('/articles') }}">Liste des articles</a>
                 </div>
                 <div class="title m-b-md">
                     Laravel {{ App::VERSION() }}

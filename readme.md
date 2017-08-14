@@ -1,3 +1,7 @@
+## About the repository
+
+This Laravel repo is my sandbox to pratice and learn more about this PHP Framework.
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">

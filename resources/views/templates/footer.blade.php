@@ -38,5 +38,16 @@
   },
   theme: 'snow'      
 });
+   
+    
+//preview    
+$('.ql-editor').keyup(function() {
+      $(".preview-desc").html($('.ql-editor').html())
+});   
+    
+$('.title').keyup(function() {
+
+      $(".preview-title").text($(this).val())
+});     
     
 </script>

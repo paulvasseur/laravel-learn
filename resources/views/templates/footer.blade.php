@@ -9,7 +9,8 @@
 <script> 
     
   var toolbarOptions = [
-      ['bold', 'italic', 'underline', 'strike'],        // toggled buttons
+      ['bold', 'italic', 'underline', 'strike'],
+      ['link', 'image'],
       ['blockquote', 'code-block'],
 
       [{ 'header': 1 }, { 'header': 2 }],               // custom button values
@@ -33,8 +34,9 @@
   modules: {
     toolbar: {
       container: toolbarOptions,  // Selector for toolbar container
-    }
+    }  
   },
   theme: 'snow'      
 });
+    
 </script>

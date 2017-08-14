@@ -18,3 +18,8 @@
 
     {!! Form::close() !!}
 @stop
+
+<div class="preview">
+
+
+</div>

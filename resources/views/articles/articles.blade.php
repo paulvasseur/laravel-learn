@@ -20,7 +20,7 @@
               </header>
               <div class="entry-description">
                 <p>
-                  {{$article->description}}
+                  {!! $article->description !!}
                 </p>
               </div>
         </section>

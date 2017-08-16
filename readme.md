@@ -2,6 +2,12 @@
 
 This Laravel repo is my sandbox to pratice and learn more about this PHP Framework.
 
+Features:
+
+- Consulter les articles publiés
+- Publier un article
+- Preview en temps réel de l'article pendant sa rédaction
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
